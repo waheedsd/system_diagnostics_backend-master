@@ -1,0 +1,1 @@
+This project aims to develop a system component monitoring tool that tracks CPU, RAM, storage, and GPU usage. The tool will provide real-time updates on the performance of these components and will be integrated with a Node.js backend server

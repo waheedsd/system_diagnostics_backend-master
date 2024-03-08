@@ -1,0 +1,38 @@
+{
+  "name": "sytem_dianostic_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mqtt": "^4.3.7",
+    "mysql2": "^1.5.1",
+    "paho-mqtt": "^1.1.0",
+    "path": "^0.12.7",
+    "ping": "^0.4.4",
+    "pkg": "^5.8.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0"
+  },
+  "pkg": {
+    "assets": [
+      "controller",
+      "router"
+    ],
+    "targets": [
+      "node10"
+    ]
+  }
+}
